@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xsp.mall.mapper.PermissionMapper">
+    <resultMap id="permissionResultMap" type="com.xsp.mall.pojo.Permission"/>
+
+    <select id="getPermissionList" resultMap="permissionResultMap">
+        SELECT
+            p.*
+        FROM
+            ums_role_permission_relation r
+            LEFT JOIN ums_permission p ON r.permission_id = p.id
+        WHERE
+            r.role_id = #{roleId};
+    </select>
+
+    
+</mapper>
