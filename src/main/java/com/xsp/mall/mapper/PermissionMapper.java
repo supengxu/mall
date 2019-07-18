@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-@Mapper
+
 public interface PermissionMapper {
     /**
      *  获取该用户的所有权限
