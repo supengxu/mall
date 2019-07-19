@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * Created by xsp on 2018/10/16.
  */
 @Service
-public class OmsOrderSettingServiceImpl implements OmsOrderSettingService {
+class OmsOrderSettingServiceImpl implements OmsOrderSettingService {
     @Autowired
     private OmsOrderSettingMapper orderSettingMapper;
 
