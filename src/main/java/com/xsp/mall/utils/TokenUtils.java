@@ -1,6 +1,5 @@
 package com.xsp.mall.utils;
 
-import com.xsp.mall.pojo.Admin;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -40,7 +39,8 @@ public class TokenUtils {
     }
 
     /**
-     *  从 token 中获取 JWT 中的 负载
+     * 从 token 中获取 JWT 中的 负载
+     *
      * @param token
      * @return
      */
@@ -56,6 +56,7 @@ public class TokenUtils {
         }
         return claims;
     }
+
     //  token 过期时间
     private Date generateExpirationDate() {
         return new Date(System.currentTimeMillis() + expiration * 1000);
@@ -64,22 +65,22 @@ public class TokenUtils {
     /**
      * 从token中获取登录用户名
      */
-   public String getUserNameFromToken(String token) {
+    public String getUserNameFromToken(String token) {
         String username;
         try {
             Claims claims = getClaimsFromToken(token);
             username = claims.getSubject();
 
-        }catch (Exception e){
+        } catch (Exception e) {
             username = null;
         }
         return username;
     }
 
     /**
-     *  验证 token 是否还有效
+     * 验证 token 是否还有效
      */
-    public boolean validateToken(String token, UserDetails userDetails){
+    public boolean validateToken(String token, UserDetails userDetails) {
         String username = getUserNameFromToken(token);
         return username.equals(userDetails.getUsername()) && !isTokenExpired(token);
     }
@@ -106,6 +107,22 @@ public class TokenUtils {
     public String generateToken(UserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
         claims.put(CLAIM_KEY_USERNAME, userDetails.getUsername());
+        claims.put(CLAIM_KEY_CREATED, new Date());
+        return generateToken(claims);
+    }
+
+    /**
+     * 判断token是否可以被刷新
+     */
+    public boolean canRefresh(String token) {
+        return !isTokenExpired(token);
+    }
+
+    /**
+     * 刷新token
+     */
+    public String refreshToken(String token) {
+        Claims claims = getClaimsFromToken(token);
         claims.put(CLAIM_KEY_CREATED, new Date());
         return generateToken(claims);
     }

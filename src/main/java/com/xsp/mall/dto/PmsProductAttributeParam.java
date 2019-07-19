@@ -3,16 +3,18 @@ package com.xsp.mall.dto;
 import com.xsp.mall.validator.FlagValidator;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.validation.constraints.NotBlank;
+
 /**
  * 商品属性参数
  * Created by xsp on 2018/4/26.
  */
 public class PmsProductAttributeParam {
     // "属性分类ID")
-    @NotEmpty(message = "属性分类不能为空")
+    @NotBlank(message = "属性分类不能为空")
     private Long productAttributeCategoryId;
     // "属性名称")
-    @NotEmpty(message = "属性名称不能为空")
+    @NotBlank(message = "属性名称不能为空")
     private String name;
     // "属性选择类型：0->唯一；1->单选；2->多选")
     @FlagValidator({"0", "1", "2"})

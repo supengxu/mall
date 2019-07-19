@@ -1,6 +1,6 @@
 package com.xsp.mall.utils;
 
-import com.xsp.mall.service.impl.AdminDetailServiceImpl;
+import com.xsp.mall.service.impl.UmsAdminDetailServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ import java.io.IOException;
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     private static final Logger LOGGER = LoggerFactory.getLogger(JwtAuthenticationTokenFilter.class);
     @Autowired
-    private AdminDetailServiceImpl adminDetailService;
+    private UmsAdminDetailServiceImpl adminDetailService;
     @Autowired
     private TokenUtils jwtTokenUtil;
     @Value("${jwt.tokenHeader}")

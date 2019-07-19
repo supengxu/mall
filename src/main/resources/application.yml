@@ -9,6 +9,7 @@ spring:
 
 mybatis:
   mapper-locations:
+    - classpath:dao/*.xml
     - classpath:mapper/*.xml
     - classpath*:com/**/mapper/*.xml
   configuration:
@@ -19,4 +20,12 @@ jwt:
   secret: mySecret #JWT加解密使用的密钥
   expiration: 604800 #JWT的超期限时间(60*60*24)
   tokenHead: Bearer  #JWT负载中拿到开头
+
+#pagehelper分页插件配置
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
