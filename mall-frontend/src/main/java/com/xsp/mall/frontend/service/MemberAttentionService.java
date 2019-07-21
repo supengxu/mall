@@ -1,6 +1,6 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.frontend.dto.MemberBrandAttention;
+import com.xsp.mall.frontend.pojo.MemberBrandAttention;
 
 import java.util.List;
 
