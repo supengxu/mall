@@ -1,11 +1,11 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.model.OmsCartItem;
-import com.macro.mall.portal.domain.CartProduct;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.service.OmsCartItemService;
-import com.macro.mall.portal.service.UmsMemberService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.model.OmsCartItem;
+import com.xsp.mall.portal.domain.CartProduct;
+import com.xsp.mall.portal.domain.CartPromotionItem;
+import com.xsp.mall.portal.service.OmsCartItemService;
+import com.xsp.mall.portal.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +16,9 @@ import java.util.List;
 
 /**
  * 购物车管理Controller
- * Created by macro on 2018/8/2.
+ * Created by xsp on 2018/8/2.
  */
 @Controller
-@Api(tags = "OmsCartItemController", description = "购物车管理")
 @RequestMapping("/cart")
 public class OmsCartItemController {
     @Autowired

@@ -2,6 +2,8 @@ package com.xsp.mall.admin.dto;
 
 
 import com.xsp.mall.admin.validator.FlagValidator;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
@@ -10,6 +12,8 @@ import javax.validation.constraints.NotBlank;
  * 品牌传递参数
  * Created by xsp on 2018/4/26.
  */
+@Setter
+@Getter
 public class PmsBrandParam {
     @NotBlank(message = "名称不能为空")
     private String name;
@@ -31,68 +35,4 @@ public class PmsBrandParam {
     private String bigPic;
     //ty(value = "品牌故事")
     private String brandStory;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getFirstLetter() {
-        return firstLetter;
-    }
-
-    public void setFirstLetter(String firstLetter) {
-        this.firstLetter = firstLetter;
-    }
-
-    public Integer getSort() {
-        return sort;
-    }
-
-    public void setSort(Integer sort) {
-        this.sort = sort;
-    }
-
-    public Integer getFactoryStatus() {
-        return factoryStatus;
-    }
-
-    public void setFactoryStatus(Integer factoryStatus) {
-        this.factoryStatus = factoryStatus;
-    }
-
-    public Integer getShowStatus() {
-        return showStatus;
-    }
-
-    public void setShowStatus(Integer showStatus) {
-        this.showStatus = showStatus;
-    }
-
-    public String getLogo() {
-        return logo;
-    }
-
-    public void setLogo(String logo) {
-        this.logo = logo;
-    }
-
-    public String getBigPic() {
-        return bigPic;
-    }
-
-    public void setBigPic(String bigPic) {
-        this.bigPic = bigPic;
-    }
-
-    public String getBrandStory() {
-        return brandStory;
-    }
-
-    public void setBrandStory(String brandStory) {
-        this.brandStory = brandStory;
-    }
 }

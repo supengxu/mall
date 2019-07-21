@@ -1,9 +1,9 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.portal.domain.ConfirmOrderResult;
-import com.macro.mall.portal.domain.OrderParam;
-import com.macro.mall.portal.service.OmsPortalOrderService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.portal.domain.ConfirmOrderResult;
+import com.xsp.mall.portal.domain.OrderParam;
+import com.xsp.mall.portal.service.OmsPortalOrderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * 订单管理Controller
- * Created by macro on 2018/8/30.
+ * Created by xsp on 2018/8/30.
  */
 @Controller
 @Api(tags = "OmsPortalOrderController",description = "订单管理")

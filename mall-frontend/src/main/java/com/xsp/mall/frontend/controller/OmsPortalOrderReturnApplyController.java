@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.portal.domain.OmsOrderReturnApplyParam;
-import com.macro.mall.portal.service.OmsPortalOrderReturnApplyService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.portal.domain.OmsOrderReturnApplyParam;
+import com.xsp.mall.portal.service.OmsPortalOrderReturnApplyService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 申请退货管理Controller
- * Created by macro on 2018/10/17.
+ * Created by xsp on 2018/10/17.
  */
 @Controller
 @Api(tags = "OmsPortalOrderReturnApplyController", description = "申请退货管理")

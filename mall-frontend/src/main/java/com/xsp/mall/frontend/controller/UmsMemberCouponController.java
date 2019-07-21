@@ -1,12 +1,12 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.model.SmsCouponHistory;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.domain.SmsCouponHistoryDetail;
-import com.macro.mall.portal.service.OmsCartItemService;
-import com.macro.mall.portal.service.UmsMemberCouponService;
-import com.macro.mall.portal.service.UmsMemberService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.model.SmsCouponHistory;
+import com.xsp.mall.portal.domain.CartPromotionItem;
+import com.xsp.mall.portal.domain.SmsCouponHistoryDetail;
+import com.xsp.mall.portal.service.OmsCartItemService;
+import com.xsp.mall.portal.service.UmsMemberCouponService;
+import com.xsp.mall.portal.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -18,7 +18,7 @@ import java.util.List;
 
 /**
  * 用户优惠券管理Controller
- * Created by macro on 2018/8/29.
+ * Created by xsp on 2018/8/29.
  */
 @Controller
 @Api(tags = "UmsMemberCouponController", description = "用户优惠券管理")

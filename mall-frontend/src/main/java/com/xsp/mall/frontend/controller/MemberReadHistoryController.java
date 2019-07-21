@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.portal.domain.MemberReadHistory;
-import com.macro.mall.portal.service.MemberReadHistoryService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.portal.domain.MemberReadHistory;
+import com.xsp.mall.portal.service.MemberReadHistoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * 会员商品浏览记录管理Controller
- * Created by macro on 2018/8/3.
+ * Created by xsp on 2018/8/3.
  */
 @Controller
 @Api(tags = "MemberReadHistoryController", description = "会员商品浏览记录管理")

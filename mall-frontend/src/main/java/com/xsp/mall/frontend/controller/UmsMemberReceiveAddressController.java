@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.model.UmsMemberReceiveAddress;
-import com.macro.mall.portal.service.UmsMemberReceiveAddressService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.model.UmsMemberReceiveAddress;
+import com.xsp.mall.portal.service.UmsMemberReceiveAddressService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * 会员收货地址管理Controller
- * Created by macro on 2018/8/28.
+ * Created by xsp on 2018/8/28.
  */
 @Controller
 @Api(tags = "UmsMemberReceiveAddressController", description = "会员收货地址管理")

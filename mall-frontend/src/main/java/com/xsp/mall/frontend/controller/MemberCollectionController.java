@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.controller;
 
-import com.macro.mall.result.CommonResult;
-import com.macro.mall.portal.domain.MemberProductCollection;
-import com.macro.mall.portal.service.MemberCollectionService;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.portal.domain.MemberProductCollection;
+import com.xsp.mall.portal.service.MemberCollectionService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * 会员收藏管理Controller
- * Created by macro on 2018/8/2.
+ * Created by xsp on 2018/8/2.
  */
 @Controller
 @Api(tags = "MemberCollectionController", description = "会员收藏管理")
