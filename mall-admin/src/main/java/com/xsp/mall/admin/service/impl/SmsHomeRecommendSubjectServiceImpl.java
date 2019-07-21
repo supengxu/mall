@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsHomeRecommendSubjectMapper;
-import com.xsp.mall.admin.pojo.SmsHomeRecommendSubject;
-import com.xsp.mall.admin.pojo.SmsHomeRecommendSubjectExample;
+import com.xsp.mall.mapper.SmsHomeRecommendSubjectMapper;
+import com.xsp.mall.model.SmsHomeRecommendSubject;
+import com.xsp.mall.model.SmsHomeRecommendSubjectExample;
 import com.xsp.mall.admin.service.SmsHomeRecommendSubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

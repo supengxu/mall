@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.result.CommonResult;
-import com.xsp.mall.admin.pojo.PmsSkuStock;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.model.PmsSkuStock;
 import com.xsp.mall.admin.service.PmsSkuStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service;
 
 import com.xsp.mall.admin.dto.PmsProductCategoryParam;
-import com.xsp.mall.admin.pojo.PmsProductCategory;
+import com.xsp.mall.model.PmsProductCategory;
 import com.xsp.mall.admin.dto.PmsProductCategoryWithChildrenItem;
 import org.springframework.transaction.annotation.Transactional;
 

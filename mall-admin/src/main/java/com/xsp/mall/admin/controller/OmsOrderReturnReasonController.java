@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.pojo.OmsOrderReturnReason;
-import com.xsp.mall.admin.result.CommonPage;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.model.OmsOrderReturnReason;
+import com.xsp.mall.result.CommonPage;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.service.OmsOrderReturnReasonService;
 
 import org.springframework.beans.factory.annotation.Autowired;

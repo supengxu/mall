@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service;
 
 import com.xsp.mall.admin.dto.PmsBrandParam;
-import com.xsp.mall.admin.pojo.PmsBrand;
+import com.xsp.mall.model.PmsBrand;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

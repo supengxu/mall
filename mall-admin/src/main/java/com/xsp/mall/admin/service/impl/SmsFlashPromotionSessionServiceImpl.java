@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.xsp.mall.admin.dto.SmsFlashPromotionSessionDetail;
-import com.xsp.mall.admin.mapper.SmsFlashPromotionSessionMapper;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionSession;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionSessionExample;
+import com.xsp.mall.mapper.SmsFlashPromotionSessionMapper;
+import com.xsp.mall.model.SmsFlashPromotionSession;
+import com.xsp.mall.model.SmsFlashPromotionSessionExample;
 import com.xsp.mall.admin.service.SmsFlashPromotionProductRelationService;
 import com.xsp.mall.admin.service.SmsFlashPromotionSessionService;
 import org.springframework.beans.BeanUtils;

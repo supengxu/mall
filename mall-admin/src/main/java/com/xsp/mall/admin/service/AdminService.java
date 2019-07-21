@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.Admin;
+import com.xsp.mall.model.Admin;
 
 public interface AdminService {
 

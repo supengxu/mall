@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.PmsProductAttribute;
+import com.xsp.mall.model.PmsProductAttribute;
 import com.xsp.mall.admin.dto.PmsProductAttributeParam;
 import com.xsp.mall.admin.dto.ProductAttrInfo;
 import org.springframework.transaction.annotation.Transactional;

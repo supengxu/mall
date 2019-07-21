@@ -2,11 +2,11 @@ package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.xsp.mall.admin.dto.*;
-import com.xsp.mall.admin.mapper.OmsOrderMapper;
-import com.xsp.mall.admin.mapper.OmsOrderOperateHistoryMapper;
-import com.xsp.mall.admin.pojo.OmsOrder;
-import com.xsp.mall.admin.pojo.OmsOrderExample;
-import com.xsp.mall.admin.pojo.OmsOrderOperateHistory;
+import com.xsp.mall.mapper.OmsOrderMapper;
+import com.xsp.mall.mapper.OmsOrderOperateHistoryMapper;
+import com.xsp.mall.model.OmsOrder;
+import com.xsp.mall.model.OmsOrderExample;
+import com.xsp.mall.model.OmsOrderOperateHistory;
 import com.xsp.mall.admin.dao.OmsOrderDao;
 import com.xsp.mall.admin.dao.OmsOrderOperateHistoryDao;
 import com.xsp.mall.dto.*;

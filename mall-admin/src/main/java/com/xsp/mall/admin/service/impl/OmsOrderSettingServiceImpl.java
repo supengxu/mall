@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service.impl;
 
-import com.xsp.mall.admin.mapper.OmsOrderSettingMapper;
-import com.xsp.mall.admin.pojo.OmsOrderSetting;
+import com.xsp.mall.mapper.OmsOrderSettingMapper;
+import com.xsp.mall.model.OmsOrderSetting;
 import com.xsp.mall.admin.service.OmsOrderSettingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

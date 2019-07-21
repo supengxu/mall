@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.service.impl;
 
-import com.xsp.mall.admin.mapper.CmsPrefrenceAreaMapper;
-import com.xsp.mall.admin.pojo.CmsPrefrenceArea;
-import com.xsp.mall.admin.pojo.CmsPrefrenceAreaExample;
+import com.xsp.mall.mapper.CmsPrefrenceAreaMapper;
+import com.xsp.mall.model.CmsPrefrenceArea;
+import com.xsp.mall.model.CmsPrefrenceAreaExample;
 import com.xsp.mall.admin.service.CmsPrefrenceAreaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

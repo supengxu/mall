@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.OmsOrderOperateHistory;
+import com.xsp.mall.model.OmsOrderOperateHistory;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

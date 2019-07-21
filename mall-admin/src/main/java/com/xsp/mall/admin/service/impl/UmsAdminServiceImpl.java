@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service.impl;
 
-import com.xsp.mall.admin.mapper.AdminMapper;
-import com.xsp.mall.admin.pojo.Admin;
+import com.xsp.mall.mapper.AdminMapper;
+import com.xsp.mall.model.Admin;
 import com.xsp.mall.admin.service.AdminService;
 import com.xsp.mall.admin.utils.TokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;

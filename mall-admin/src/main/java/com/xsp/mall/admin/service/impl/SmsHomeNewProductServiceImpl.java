@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsHomeNewProductMapper;
-import com.xsp.mall.admin.pojo.SmsHomeNewProduct;
-import com.xsp.mall.admin.pojo.SmsHomeNewProductExample;
+import com.xsp.mall.mapper.SmsHomeNewProductMapper;
+import com.xsp.mall.model.SmsHomeNewProduct;
+import com.xsp.mall.model.SmsHomeNewProductExample;
 import com.xsp.mall.admin.service.SmsHomeNewProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

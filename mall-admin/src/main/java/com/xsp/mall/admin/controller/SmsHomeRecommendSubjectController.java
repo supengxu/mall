@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.pojo.SmsHomeRecommendSubject;
-import com.xsp.mall.admin.result.CommonPage;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.model.SmsHomeRecommendSubject;
+import com.xsp.mall.result.CommonPage;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.service.SmsHomeRecommendSubjectService;
 
 

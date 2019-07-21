@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.CmsSubject;
+import com.xsp.mall.model.CmsSubject;
 
 import java.util.List;
 

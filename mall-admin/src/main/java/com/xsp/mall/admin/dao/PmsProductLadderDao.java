@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.PmsProductLadder;
+import com.xsp.mall.model.PmsProductLadder;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

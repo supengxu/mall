@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.SmsCouponProductRelation;
+import com.xsp.mall.model.SmsCouponProductRelation;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.PmsProductAttributeCategory;
+import com.xsp.mall.model.PmsProductAttributeCategory;
 import com.xsp.mall.admin.dto.PmsProductAttributeCategoryItem;
 
 import java.util.List;

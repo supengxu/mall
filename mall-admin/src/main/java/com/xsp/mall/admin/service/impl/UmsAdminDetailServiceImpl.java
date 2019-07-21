@@ -1,10 +1,10 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.xsp.mall.admin.bo.AdminUserDetails;
-import com.xsp.mall.admin.mapper.PermissionMapper;
-import com.xsp.mall.admin.pojo.Permission;
-import com.xsp.mall.admin.mapper.AdminMapper;
-import com.xsp.mall.admin.pojo.Admin;
+import com.xsp.mall.mapper.PermissionMapper;
+import com.xsp.mall.model.Permission;
+import com.xsp.mall.mapper.AdminMapper;
+import com.xsp.mall.model.Admin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.CmsSubjectProductRelation;
+import com.xsp.mall.model.CmsSubjectProductRelation;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

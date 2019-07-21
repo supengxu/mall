@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.pojo.OmsCompanyAddress;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.model.OmsCompanyAddress;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.service.OmsCompanyAddressService;
 
 import org.springframework.beans.factory.annotation.Autowired;

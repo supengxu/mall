@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsFlashPromotionMapper;
-import com.xsp.mall.admin.pojo.SmsFlashPromotion;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionExample;
+import com.xsp.mall.mapper.SmsFlashPromotionMapper;
+import com.xsp.mall.model.SmsFlashPromotion;
+import com.xsp.mall.model.SmsFlashPromotionExample;
 import com.xsp.mall.admin.service.SmsFlashPromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

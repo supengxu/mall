@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsCouponHistoryMapper;
-import com.xsp.mall.admin.pojo.SmsCouponHistory;
-import com.xsp.mall.admin.pojo.SmsCouponHistoryExample;
+import com.xsp.mall.mapper.SmsCouponHistoryMapper;
+import com.xsp.mall.model.SmsCouponHistory;
+import com.xsp.mall.model.SmsCouponHistoryExample;
 import com.xsp.mall.admin.service.SmsCouponHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

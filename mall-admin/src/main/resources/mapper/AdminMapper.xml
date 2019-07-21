@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xsp.mall.admin.mapper.AdminMapper">
-    <resultMap id="adminResultMap" type="com.xsp.mall.admin.pojo.Admin"/>
+<mapper namespace="com.xsp.mall.mapper.AdminMapper">
+    <resultMap id="adminResultMap" type="com.xsp.mall.model.pojo.Admin"/>
     <select id="findAdminByName" resultMap="adminResultMap">
     SELECT
         *

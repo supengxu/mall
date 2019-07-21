@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.SmsCouponHistory;
+import com.xsp.mall.model.SmsCouponHistory;
 
 import java.util.List;
 

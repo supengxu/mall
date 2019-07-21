@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.controller;
 
 import com.xsp.mall.admin.dto.SmsFlashPromotionSessionDetail;
-import com.xsp.mall.admin.result.CommonResult;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionSession;
+import com.xsp.mall.result.CommonResult;
+import com.xsp.mall.model.SmsFlashPromotionSession;
 import com.xsp.mall.admin.service.SmsFlashPromotionSessionService;
 
 

@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.SmsFlashPromotionProductRelation;
+import com.xsp.mall.model.SmsFlashPromotionProductRelation;
 import com.xsp.mall.admin.dto.SmsFlashPromotionProduct;
 import org.springframework.transaction.annotation.Transactional;
 

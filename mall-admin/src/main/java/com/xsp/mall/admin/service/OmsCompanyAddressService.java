@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.OmsCompanyAddress;
+import com.xsp.mall.model.OmsCompanyAddress;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service;
 
 import com.xsp.mall.admin.dto.*;
-import com.xsp.mall.admin.pojo.OmsOrder;
+import com.xsp.mall.model.OmsOrder;
 import com.xsp.mall.dto.*;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -2,10 +2,10 @@ package com.xsp.mall.admin.controller;
 
 import com.xsp.mall.admin.dto.OmsOrderReturnApplyResult;
 import com.xsp.mall.admin.dto.OmsUpdateStatusParam;
-import com.xsp.mall.admin.result.CommonPage;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.result.CommonPage;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.dto.OmsReturnApplyQueryParam;
-import com.xsp.mall.admin.pojo.OmsOrderReturnApply;
+import com.xsp.mall.model.OmsOrderReturnApply;
 import com.xsp.mall.admin.service.OmsOrderReturnApplyService;
 
 import org.springframework.beans.factory.annotation.Autowired;

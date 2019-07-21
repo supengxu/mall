@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.service.impl;
 
-import com.xsp.mall.admin.mapper.UmsMemberLevelMapper;
-import com.xsp.mall.admin.pojo.UmsMemberLevel;
-import com.xsp.mall.admin.pojo.UmsMemberLevelExample;
+import com.xsp.mall.mapper.UmsMemberLevelMapper;
+import com.xsp.mall.model.UmsMemberLevel;
+import com.xsp.mall.model.UmsMemberLevelExample;
 import com.xsp.mall.admin.service.UmsMemberLevelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

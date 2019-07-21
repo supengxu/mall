@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.bo;
 
-import com.xsp.mall.admin.pojo.Admin;
-import com.xsp.mall.admin.pojo.Permission;
+import com.xsp.mall.model.Admin;
+import com.xsp.mall.model.Permission;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

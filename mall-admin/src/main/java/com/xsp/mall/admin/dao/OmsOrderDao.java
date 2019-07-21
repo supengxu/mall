@@ -2,7 +2,7 @@ package com.xsp.mall.admin.dao;
 
 import com.xsp.mall.admin.dto.OmsOrderDeliveryParam;
 import com.xsp.mall.admin.dto.OmsOrderQueryParam;
-import com.xsp.mall.admin.pojo.OmsOrder;
+import com.xsp.mall.model.OmsOrder;
 import com.xsp.mall.admin.dto.OmsOrderDetail;
 import org.apache.ibatis.annotations.Param;
 

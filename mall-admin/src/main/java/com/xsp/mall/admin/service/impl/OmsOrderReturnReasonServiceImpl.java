@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.OmsOrderReturnReasonMapper;
-import com.xsp.mall.admin.pojo.OmsOrderReturnReason;
-import com.xsp.mall.admin.pojo.OmsOrderReturnReasonExample;
+import com.xsp.mall.mapper.OmsOrderReturnReasonMapper;
+import com.xsp.mall.model.OmsOrderReturnReason;
+import com.xsp.mall.model.OmsOrderReturnReasonExample;
 import com.xsp.mall.admin.service.OmsOrderReturnReasonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

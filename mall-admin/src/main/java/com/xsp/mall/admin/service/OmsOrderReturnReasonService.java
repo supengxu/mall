@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.OmsOrderReturnReason;
+import com.xsp.mall.model.OmsOrderReturnReason;
 
 import java.util.List;
 

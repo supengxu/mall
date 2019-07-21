@@ -1,10 +1,10 @@
 package com.xsp.mall.admin.controller;
 
 import com.xsp.mall.admin.dto.PmsBrandParam;
-import com.xsp.mall.admin.pojo.PmsBrand;
-import com.xsp.mall.admin.result.CommonPage;
+import com.xsp.mall.model.PmsBrand;
+import com.xsp.mall.result.CommonPage;
 import com.xsp.mall.admin.service.PmsBrandService;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.result.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;

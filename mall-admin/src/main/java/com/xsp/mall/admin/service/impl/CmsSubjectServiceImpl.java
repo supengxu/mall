@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.CmsSubjectMapper;
-import com.xsp.mall.admin.pojo.CmsSubject;
-import com.xsp.mall.admin.pojo.CmsSubjectExample;
+import com.xsp.mall.mapper.CmsSubjectMapper;
+import com.xsp.mall.model.CmsSubject;
+import com.xsp.mall.model.CmsSubjectExample;
 import com.xsp.mall.admin.service.CmsSubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

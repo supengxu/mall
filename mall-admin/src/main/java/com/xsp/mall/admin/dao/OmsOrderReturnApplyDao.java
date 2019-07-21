@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.dao;
 
 import com.xsp.mall.admin.dto.OmsOrderReturnApplyResult;
-import com.xsp.mall.admin.pojo.OmsOrderReturnApply;
+import com.xsp.mall.model.OmsOrderReturnApply;
 import com.xsp.mall.admin.dto.OmsReturnApplyQueryParam;
 import org.apache.ibatis.annotations.Param;
 

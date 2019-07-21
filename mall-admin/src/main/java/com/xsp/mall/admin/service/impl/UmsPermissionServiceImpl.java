@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.xsp.mall.admin.dto.UmsPermissionNode;
-import com.xsp.mall.admin.mapper.UmsPermissionMapper;
-import com.xsp.mall.admin.pojo.UmsPermission;
-import com.xsp.mall.admin.pojo.UmsPermissionExample;
+import com.xsp.mall.mapper.UmsPermissionMapper;
+import com.xsp.mall.model.UmsPermission;
+import com.xsp.mall.model.UmsPermissionExample;
 import com.xsp.mall.admin.service.UmsPermissionService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

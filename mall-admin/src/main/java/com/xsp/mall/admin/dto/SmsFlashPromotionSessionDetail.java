@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dto;
 
-import com.xsp.mall.admin.pojo.SmsFlashPromotionSession;
+import com.xsp.mall.model.SmsFlashPromotionSession;
 import lombok.Getter;
 import lombok.Setter;
 

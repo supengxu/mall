@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.UmsAdmin;
-import com.xsp.mall.admin.pojo.UmsPermission;
-import com.xsp.mall.admin.pojo.UmsRole;
+import com.xsp.mall.model.UmsAdmin;
+import com.xsp.mall.model.UmsPermission;
+import com.xsp.mall.model.UmsRole;
 import com.xsp.mall.admin.dto.UmsAdminParam;
 import org.springframework.transaction.annotation.Transactional;
 

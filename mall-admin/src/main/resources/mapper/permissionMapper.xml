@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xsp.mall.admin.mapper.PermissionMapper">
-    <resultMap id="permissionResultMap" type="com.xsp.mall.admin.pojo.Permission"/>
+<mapper namespace="com.xsp.mall.mapper.PermissionMapper">
+    <resultMap id="permissionResultMap" type="com.xsp.mall.model.pojo.Permission"/>
 
     <select id="getPermissionList" resultMap="permissionResultMap">
         SELECT

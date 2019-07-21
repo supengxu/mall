@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.UmsAdminRoleRelation;
-import com.xsp.mall.admin.pojo.UmsPermission;
-import com.xsp.mall.admin.pojo.UmsRole;
+import com.xsp.mall.model.UmsAdminRoleRelation;
+import com.xsp.mall.model.UmsPermission;
+import com.xsp.mall.model.UmsRole;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

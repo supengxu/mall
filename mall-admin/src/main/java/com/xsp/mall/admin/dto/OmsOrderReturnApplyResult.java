@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.dto;
 
-import com.xsp.mall.admin.pojo.OmsCompanyAddress;
-import com.xsp.mall.admin.pojo.OmsOrderReturnApply;
+import com.xsp.mall.model.OmsCompanyAddress;
+import com.xsp.mall.model.OmsOrderReturnApply;
 import lombok.Getter;
 import lombok.Setter;
 

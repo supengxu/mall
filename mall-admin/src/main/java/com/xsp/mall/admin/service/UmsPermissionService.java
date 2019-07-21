@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service;
 
 import com.xsp.mall.admin.dto.UmsPermissionNode;
-import com.xsp.mall.admin.pojo.UmsPermission;
+import com.xsp.mall.model.UmsPermission;
 
 import java.util.List;
 

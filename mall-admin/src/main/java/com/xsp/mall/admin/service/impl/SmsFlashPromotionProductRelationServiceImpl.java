@@ -1,11 +1,11 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionProductRelation;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionProductRelationExample;
+import com.xsp.mall.model.SmsFlashPromotionProductRelation;
+import com.xsp.mall.model.SmsFlashPromotionProductRelationExample;
 import com.xsp.mall.admin.dao.SmsFlashPromotionProductRelationDao;
 import com.xsp.mall.admin.dto.SmsFlashPromotionProduct;
-import com.xsp.mall.admin.mapper.SmsFlashPromotionProductRelationMapper;
+import com.xsp.mall.mapper.SmsFlashPromotionProductRelationMapper;
 import com.xsp.mall.admin.service.SmsFlashPromotionProductRelationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

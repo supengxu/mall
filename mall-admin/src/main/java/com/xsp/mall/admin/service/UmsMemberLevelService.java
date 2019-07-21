@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.UmsMemberLevel;
+import com.xsp.mall.model.UmsMemberLevel;
 
 import java.util.List;
 

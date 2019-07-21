@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsHomeBrandMapper;
-import com.xsp.mall.admin.pojo.SmsHomeBrand;
-import com.xsp.mall.admin.pojo.SmsHomeBrandExample;
+import com.xsp.mall.mapper.SmsHomeBrandMapper;
+import com.xsp.mall.model.SmsHomeBrand;
+import com.xsp.mall.model.SmsHomeBrandExample;
 import com.xsp.mall.admin.service.SmsHomeBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

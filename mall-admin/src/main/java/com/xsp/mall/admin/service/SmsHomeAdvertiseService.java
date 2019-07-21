@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.SmsHomeAdvertise;
+import com.xsp.mall.model.SmsHomeAdvertise;
 
 import java.util.List;
 

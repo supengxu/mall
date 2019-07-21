@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.CmsPrefrenceArea;
+import com.xsp.mall.model.CmsPrefrenceArea;
 
 import java.util.List;
 

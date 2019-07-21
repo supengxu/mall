@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.service;
 
 import com.xsp.mall.admin.dto.SmsFlashPromotionSessionDetail;
-import com.xsp.mall.admin.pojo.SmsFlashPromotionSession;
+import com.xsp.mall.model.SmsFlashPromotionSession;
 
 import java.util.List;
 

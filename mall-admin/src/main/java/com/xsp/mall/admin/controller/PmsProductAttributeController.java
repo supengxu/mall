@@ -1,10 +1,10 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.result.CommonPage;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.result.CommonPage;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.dto.PmsProductAttributeParam;
 import com.xsp.mall.admin.dto.ProductAttrInfo;
-import com.xsp.mall.admin.pojo.PmsProductAttribute;
+import com.xsp.mall.model.PmsProductAttribute;
 import com.xsp.mall.admin.service.PmsProductAttributeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;

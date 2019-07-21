@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.SmsHomeRecommendSubject;
+import com.xsp.mall.model.SmsHomeRecommendSubject;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

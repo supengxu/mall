@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.dto;
 
-import com.xsp.mall.admin.pojo.OmsOrder;
-import com.xsp.mall.admin.pojo.OmsOrderItem;
-import com.xsp.mall.admin.pojo.OmsOrderOperateHistory;
+import com.xsp.mall.model.OmsOrder;
+import com.xsp.mall.model.OmsOrderItem;
+import com.xsp.mall.model.OmsOrderOperateHistory;
 import lombok.Getter;
 import lombok.Setter;
 

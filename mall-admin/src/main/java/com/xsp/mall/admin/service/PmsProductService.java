@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.PmsProduct;
+import com.xsp.mall.model.PmsProduct;
 import com.xsp.mall.admin.dto.PmsProductParam;
 import com.xsp.mall.admin.dto.PmsProductQueryParam;
 import com.xsp.mall.admin.dto.PmsProductResult;

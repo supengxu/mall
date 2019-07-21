@@ -1,8 +1,8 @@
 package com.xsp.mall.admin.dto;
 
-import com.xsp.mall.admin.pojo.SmsCoupon;
-import com.xsp.mall.admin.pojo.SmsCouponProductCategoryRelation;
-import com.xsp.mall.admin.pojo.SmsCouponProductRelation;
+import com.xsp.mall.model.SmsCoupon;
+import com.xsp.mall.model.SmsCouponProductCategoryRelation;
+import com.xsp.mall.model.SmsCouponProductRelation;
 
 import java.util.List;
 

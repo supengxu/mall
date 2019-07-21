@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.PmsProductCategoryAttributeRelation;
+import com.xsp.mall.model.PmsProductCategoryAttributeRelation;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

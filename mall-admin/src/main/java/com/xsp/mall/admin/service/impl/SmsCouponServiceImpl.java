@@ -1,15 +1,15 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.xsp.mall.admin.mapper.SmsCouponMapper;
-import com.xsp.mall.admin.mapper.SmsCouponProductRelationMapper;
-import com.xsp.mall.admin.pojo.*;
+import com.xsp.mall.mapper.SmsCouponMapper;
+import com.xsp.mall.mapper.SmsCouponProductRelationMapper;
+import com.xsp.mall.model.*;
 import com.xsp.mall.admin.dao.SmsCouponDao;
 import com.xsp.mall.admin.dao.SmsCouponProductCategoryRelationDao;
 import com.xsp.mall.admin.dao.SmsCouponProductRelationDao;
 import com.xsp.mall.admin.dto.SmsCouponParam;
-import com.xsp.mall.admin.mapper.SmsCouponProductCategoryRelationMapper;
-import com.xsp.mall.pojo.*;
+import com.xsp.mall.mapper.SmsCouponProductCategoryRelationMapper;
+import com.xsp.mall.*;
 import com.xsp.mall.admin.service.SmsCouponService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

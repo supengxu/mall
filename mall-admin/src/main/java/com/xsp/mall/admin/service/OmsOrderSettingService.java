@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.OmsOrderSetting;
+import com.xsp.mall.model.OmsOrderSetting;
 
 /**
  * 订单设置Service

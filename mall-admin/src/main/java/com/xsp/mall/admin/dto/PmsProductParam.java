@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.dto;
 
-import com.xsp.mall.admin.pojo.*;
-import com.xsp.mall.pojo.*;
+import com.xsp.mall.model.*;
+import com.xsp.mall.*;
 
 
 import java.util.List;

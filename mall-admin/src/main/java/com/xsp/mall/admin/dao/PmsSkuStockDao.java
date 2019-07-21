@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.dao;
 
-import com.xsp.mall.admin.pojo.PmsSkuStock;
+import com.xsp.mall.model.PmsSkuStock;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

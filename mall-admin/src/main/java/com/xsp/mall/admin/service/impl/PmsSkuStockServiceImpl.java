@@ -1,9 +1,9 @@
 package com.xsp.mall.admin.service.impl;
 
 import com.xsp.mall.admin.dao.PmsSkuStockDao;
-import com.xsp.mall.admin.mapper.PmsSkuStockMapper;
-import com.xsp.mall.admin.pojo.PmsSkuStock;
-import com.xsp.mall.admin.pojo.PmsSkuStockExample;
+import com.xsp.mall.mapper.PmsSkuStockMapper;
+import com.xsp.mall.model.PmsSkuStock;
+import com.xsp.mall.model.PmsSkuStockExample;
 import com.xsp.mall.admin.service.PmsSkuStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

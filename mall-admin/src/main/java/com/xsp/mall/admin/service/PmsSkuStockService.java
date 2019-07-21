@@ -1,6 +1,6 @@
 package com.xsp.mall.admin.service;
 
-import com.xsp.mall.admin.pojo.PmsSkuStock;
+import com.xsp.mall.model.PmsSkuStock;
 
 import java.util.List;
 

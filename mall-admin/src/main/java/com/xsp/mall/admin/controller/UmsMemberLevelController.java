@@ -1,7 +1,7 @@
 package com.xsp.mall.admin.controller;
 
-import com.xsp.mall.admin.pojo.UmsMemberLevel;
-import com.xsp.mall.admin.result.CommonResult;
+import com.xsp.mall.model.UmsMemberLevel;
+import com.xsp.mall.result.CommonResult;
 import com.xsp.mall.admin.service.UmsMemberLevelService;
 
 import org.springframework.beans.factory.annotation.Autowired;
