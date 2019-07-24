@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.UmsIntegrationConsumeSetting;
-import com.xsp.mall.model.pojo.UmsIntegrationConsumeSettingExample;
+import com.xsp.mall.model.UmsIntegrationConsumeSetting;
+import com.xsp.mall.model.UmsIntegrationConsumeSettingExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

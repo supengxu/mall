@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.OmsOrder;
-import com.xsp.mall.model.pojo.OmsOrderExample;
+import com.xsp.mall.model.OmsOrder;
+import com.xsp.mall.model.OmsOrderExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

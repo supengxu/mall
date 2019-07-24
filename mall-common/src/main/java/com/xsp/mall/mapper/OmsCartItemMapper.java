@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.OmsCartItem;
-import com.xsp.mall.model.pojo.OmsCartItemExample;
+import com.xsp.mall.model.OmsCartItem;
+import com.xsp.mall.model.OmsCartItemExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
