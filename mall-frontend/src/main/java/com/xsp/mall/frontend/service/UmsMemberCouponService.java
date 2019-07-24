@@ -1,9 +1,9 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.common.api.CommonResult;
+import com.xsp.mall.frontend.dto.CartPromotionItem;
+import com.xsp.mall.frontend.dto.SmsCouponHistoryDetail;
 import com.xsp.mall.model.SmsCouponHistory;
-import com.xsp.mall.portal.domain.CartPromotionItem;
-import com.xsp.mall.portal.domain.SmsCouponHistoryDetail;
+import com.xsp.mall.result.CommonResult;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -21,6 +21,7 @@ public interface UmsMemberCouponService {
 
     /**
      * 获取优惠券列表
+     *
      * @param useStatus 优惠券的使用状态
      */
     List<SmsCouponHistory> list(Integer useStatus);

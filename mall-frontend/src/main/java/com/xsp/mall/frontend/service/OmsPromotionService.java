@@ -1,7 +1,7 @@
 package com.xsp.mall.frontend.service;
 
+import com.xsp.mall.frontend.dto.CartPromotionItem;
 import com.xsp.mall.model.OmsCartItem;
-import com.xsp.mall.portal.domain.CartPromotionItem;
 
 import java.util.List;
 
@@ -12,6 +12,7 @@ import java.util.List;
 public interface OmsPromotionService {
     /**
      * 计算购物车中的促销活动信息
+     *
      * @param cartItemList 购物车
      */
     List<CartPromotionItem> calcCartPromotion(List<OmsCartItem> cartItemList);
