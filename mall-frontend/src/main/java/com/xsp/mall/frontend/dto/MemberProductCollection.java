@@ -1,4 +1,4 @@
-package com.xsp.mall.frontend.pojo;
+package com.xsp.mall.frontend.dto;
 
 import lombok.Getter;
 import lombok.Setter;

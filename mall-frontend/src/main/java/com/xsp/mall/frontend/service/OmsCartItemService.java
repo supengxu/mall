@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.service;
 
+import com.xsp.mall.frontend.dto.CartProduct;
+import com.xsp.mall.frontend.dto.CartPromotionItem;
 import com.xsp.mall.model.OmsCartItem;
-import com.xsp.mall.portal.domain.CartProduct;
-import com.xsp.mall.portal.domain.CartPromotionItem;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -39,7 +39,7 @@ public interface OmsCartItemService {
     int delete(Long memberId, List<Long> ids);
 
     /**
-     *获取购物车中用于选择商品规格的商品信息
+     * 获取购物车中用于选择商品规格的商品信息
      */
     CartProduct getCartProduct(Long productId);
 

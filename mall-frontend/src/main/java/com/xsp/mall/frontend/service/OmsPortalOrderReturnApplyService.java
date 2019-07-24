@@ -1,6 +1,6 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.portal.domain.OmsOrderReturnApplyParam;
+import com.xsp.mall.frontend.dto.OmsOrderReturnApplyParam;
 
 /**
  * 订单退货管理Service

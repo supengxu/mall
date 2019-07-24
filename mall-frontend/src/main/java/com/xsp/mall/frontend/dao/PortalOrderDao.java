@@ -1,7 +1,7 @@
 package com.xsp.mall.frontend.dao;
 
+import com.xsp.mall.frontend.dto.OmsOrderDetail;
 import com.xsp.mall.model.OmsOrderItem;
-import com.xsp.mall.portal.domain.OmsOrderDetail;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -23,6 +23,7 @@ public interface PortalOrderDao {
 
     /**
      * 获取超时订单
+     *
      * @param minute 超时时间（分）
      */
     List<OmsOrderDetail> getTimeOutOrders(@Param("minute") Integer minute);

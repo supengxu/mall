@@ -1,9 +1,9 @@
 package com.xsp.mall.frontend.dao;
 
+import com.xsp.mall.frontend.dto.FlashPromotionProduct;
 import com.xsp.mall.model.CmsSubject;
 import com.xsp.mall.model.PmsBrand;
 import com.xsp.mall.model.PmsProduct;
-import com.xsp.mall.portal.domain.FlashPromotionProduct;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

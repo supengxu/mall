@@ -1,8 +1,8 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.common.api.CommonResult;
-import com.xsp.mall.portal.domain.ConfirmOrderResult;
-import com.xsp.mall.portal.domain.OrderParam;
+import com.xsp.mall.frontend.dto.ConfirmOrderResult;
+import com.xsp.mall.frontend.dto.OrderParam;
+import com.xsp.mall.result.CommonResult;
 import org.springframework.transaction.annotation.Transactional;
 
 /**

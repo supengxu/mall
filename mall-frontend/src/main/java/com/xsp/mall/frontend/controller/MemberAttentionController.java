@@ -1,12 +1,9 @@
 package com.xsp.mall.frontend.controller;
 
+import com.xsp.mall.frontend.pojo.MemberBrandAttention;
+import com.xsp.mall.frontend.service.MemberAttentionService;
 import com.xsp.mall.result.CommonResult;
-import com.xsp.mall.portal.domain.MemberBrandAttention;
-import com.xsp.mall.portal.service.MemberAttentionService;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,39 +12,36 @@ import java.util.List;
  * 会员关注品牌管理Controller
  * Created by xsp on 2018/8/2.
  */
-@Controller
-@Api(tags = "MemberAttentionController", description = "会员关注品牌管理")
+@RestController
 @RequestMapping("/member/attention")
 public class MemberAttentionController {
     @Autowired
     private MemberAttentionService memberAttentionService;
-    @ApiOperation("添加品牌关注")
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
-    @ResponseBody
+
+    // 添加品牌关注")
+    @PostMapping("/add")
     public CommonResult add(@RequestBody MemberBrandAttention memberBrandAttention) {
         int count = memberAttentionService.add(memberBrandAttention);
-        if(count>0){
+        if (count > 0) {
             return CommonResult.success(count);
-        }else{
+        } else {
             return CommonResult.failed();
         }
     }
 
-    @ApiOperation("取消关注")
-    @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    @ResponseBody
+    // 取消关注")
+    @PostMapping("/delete")
     public CommonResult delete(Long memberId, Long brandId) {
-        int count = memberAttentionService.delete(memberId,brandId);
-        if(count>0){
+        int count = memberAttentionService.delete(memberId, brandId);
+        if (count > 0) {
             return CommonResult.success(count);
-        }else{
+        } else {
             return CommonResult.failed();
         }
     }
 
-    @ApiOperation("显示关注列表")
-    @RequestMapping(value = "/list/{memberId}", method = RequestMethod.GET)
-    @ResponseBody
+    // 显示关注列表")
+    @GetMapping("/list/{memberId}")
     public CommonResult<List<MemberBrandAttention>> list(@PathVariable Long memberId) {
         List<MemberBrandAttention> memberBrandAttentionList = memberAttentionService.list(memberId);
         return CommonResult.success(memberBrandAttentionList);

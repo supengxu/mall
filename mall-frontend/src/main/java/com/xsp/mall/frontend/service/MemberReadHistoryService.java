@@ -1,6 +1,6 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.portal.domain.MemberReadHistory;
+import com.xsp.mall.frontend.pojo.MemberReadHistory;
 
 import java.util.List;
 

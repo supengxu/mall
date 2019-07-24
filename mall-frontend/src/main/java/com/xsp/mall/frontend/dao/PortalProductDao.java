@@ -1,7 +1,7 @@
 package com.xsp.mall.frontend.dao;
 
-import com.xsp.mall.portal.domain.CartProduct;
-import com.xsp.mall.portal.domain.PromotionProduct;
+import com.xsp.mall.frontend.dto.CartProduct;
+import com.xsp.mall.frontend.dto.PromotionProduct;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -12,5 +12,6 @@ import java.util.List;
  */
 public interface PortalProductDao {
     CartProduct getCartProduct(@Param("id") Long id);
+
     List<PromotionProduct> getPromotionProductList(@Param("ids") List<Long> ids);
 }

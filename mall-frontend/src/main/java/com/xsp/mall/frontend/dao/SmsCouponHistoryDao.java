@@ -1,6 +1,6 @@
 package com.xsp.mall.frontend.dao;
 
-import com.xsp.mall.portal.domain.SmsCouponHistoryDetail;
+import com.xsp.mall.frontend.dto.SmsCouponHistoryDetail;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

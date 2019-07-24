@@ -1,6 +1,6 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.portal.domain.MemberProductCollection;
+import com.xsp.mall.frontend.dto.MemberProductCollection;
 
 import java.util.List;
 

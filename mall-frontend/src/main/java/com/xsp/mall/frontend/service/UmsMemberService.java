@@ -1,7 +1,7 @@
 package com.xsp.mall.frontend.service;
 
-import com.xsp.mall.common.api.CommonResult;
 import com.xsp.mall.model.UmsMember;
+import com.xsp.mall.result.CommonResult;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
