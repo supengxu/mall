@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.PmsSkuStock;
-import com.xsp.mall.model.pojo.PmsSkuStockExample;
+import com.xsp.mall.model.PmsSkuStock;
+import com.xsp.mall.model.PmsSkuStockExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

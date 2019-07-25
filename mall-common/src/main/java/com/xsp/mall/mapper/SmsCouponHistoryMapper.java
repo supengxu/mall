@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.SmsCouponHistory;
-import com.xsp.mall.model.pojo.SmsCouponHistoryExample;
+import com.xsp.mall.model.SmsCouponHistory;
+import com.xsp.mall.model.SmsCouponHistoryExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.xsp.mall.mapper;
 
-import com.xsp.mall.model.pojo.UmsMember;
-import com.xsp.mall.model.pojo.UmsMemberExample;
+import com.xsp.mall.model.UmsMember;
+import com.xsp.mall.model.UmsMemberExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
